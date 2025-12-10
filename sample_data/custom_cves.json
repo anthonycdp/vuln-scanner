@@ -1,0 +1,24 @@
+[
+    {
+        "id": "CVE-2024-0001",
+        "description": "Example custom vulnerability for demonstration purposes",
+        "severity": "medium",
+        "cvss_score": 5.5,
+        "affected_service": "custom-app",
+        "affected_versions": ["1.0", "1.1", "1.2"],
+        "patch_versions": ["1.3"],
+        "references": ["https://example.com/cve/CVE-2024-0001"],
+        "remediation": "Upgrade custom-app to version 1.3 or later"
+    },
+    {
+        "id": "CVE-2024-0002",
+        "description": "Another example vulnerability for internal services",
+        "severity": "high",
+        "cvss_score": 7.5,
+        "affected_service": "internal-api",
+        "affected_versions": ["2.0", "2.1"],
+        "patch_versions": ["2.2"],
+        "references": ["https://example.com/cve/CVE-2024-0002"],
+        "remediation": "Apply security patch or upgrade to version 2.2"
+    }
+]
